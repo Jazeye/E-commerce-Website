@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #CFE2F0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.logo {
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  
+}
+.logoname {
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 30px;
+  vertical-align: middle;
+      color: #1F74BA;
+}
+.header {
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+
+
+
+
