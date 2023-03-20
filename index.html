@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MukkamKart</title>
     <!-- css -->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Styles/style.css" />
-
   </head>
   <body>
     <!-- navbar -->
@@ -17,12 +14,15 @@
       <div class="navbar-container">
         <div class="navbar-logo-container">
           <a class="navbar-logo" href="#">
-            <img src="Icons/apple-touch-icon.png" alt="logo"/>
+            <img src="Icons/apple-touch-icon.png" alt="logo" />
           </a>
           <a class="navbar-logoname" href="#">Mukkam Kart</a>
         </div>
-        
-        <i class="menu-icon fas fa-align-justify" onclick="navClick()"></i>
+        <!-- Responsive_menu -->
+        <div class="menu-icon" onclick="navClick()">
+          <img src="Icons/menu.png" alt="Home" />
+        </div>
+        <!-- Responsive_menuend -->
         <ul class="navbar-menu">
           <li class="navbar-item">
             <a href="#"><img src="Icons/Home.png" alt="Home" /></a>
@@ -35,23 +35,30 @@
           </li>
         </ul>
       </div>
-    <!-- Responsive -->
-        <ul class="navbar-menu-text" id="navbar-menu-text">
-          <li class="navbar-item">
-            <a href="#">Home</a>
-          </li>
-          <li class="navbar-item">
-            <a href="#">Cart</a>
-          </li>
-          <li class="navbar-item">
-            <a href="#">User</a>
-          </li>
-        </ul>
-    <!-- Responsive end -->
+      <!-- Responsive -->
+      <ul class="navbar-menu-text" id="navbar-menu-text">
+        <li class="navbar-mpitem">
+          <a href="#">Home</a>
+        </li>
+        <li class="navbar-mpitem">
+          <a href="#">Cart</a>
+        </li>
+        <li class="navbar-mpitem">
+          <a href="#">User</a>
+        </li>
+      </ul>
+      <!-- Responsive end -->
     </nav>
     <!-- navbarend -->
-    <!-- js linking -->
-    <script src="/Scripts/script.js" type="text/javascript" charset="utf-8"></script>
-    <!-- js linking -->
+    <!-- searchbar -->
+
+    <!-- searchbar-end -->
+    <!-- script.js -->
+    <script
+      src="/Scripts/script.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <!-- script.js -->
   </body>
 </html>
