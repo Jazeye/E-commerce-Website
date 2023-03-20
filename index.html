@@ -7,24 +7,51 @@
     <title>MukkamKart</title>
     <!-- css -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Styles/style.css" />
+
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar">
       <div class="navbar-container">
         <div class="navbar-logo-container">
-          <a class="navbar-logo" href="#"><img src="Icons/apple-touch-icon.png" alt="logo"></a>
+          <a class="navbar-logo" href="#">
+            <img src="Icons/apple-touch-icon.png" alt="logo"/>
+          </a>
           <a class="navbar-logoname" href="#">Mukkam Kart</a>
         </div>
+        
+        <i class="menu-icon fas fa-align-justify" onclick="navClick()"></i>
         <ul class="navbar-menu">
-          <li class="navbar-item"><a href="#"><img src="Icons/Home.png" alt="Home"></a></li>
-          <li class="navbar-item"><a href="#"><img src="Icons/Kart.png" alt="Cart"></a></li>
-          <li class="navbar-item"><a href="#"><img src="Icons/User.png" alt="User"></a></li>
+          <li class="navbar-item">
+            <a href="#"><img src="Icons/Home.png" alt="Home" /></a>
+          </li>
+          <li class="navbar-item">
+            <a href="#"><img src="Icons/Kart.png" alt="Cart" /></a>
+          </li>
+          <li class="navbar-item">
+            <a href="#"><img src="Icons/User.png" alt="User" /></a>
+          </li>
         </ul>
       </div>
+    <!-- Responsive -->
+        <ul class="navbar-menu-text" id="navbar-menu-text">
+          <li class="navbar-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#">Cart</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#">User</a>
+          </li>
+        </ul>
+    <!-- Responsive end -->
     </nav>
-    
     <!-- navbarend -->
+    <!-- js linking -->
+    <script src="/Scripts/script.js" type="text/javascript" charset="utf-8"></script>
+    <!-- js linking -->
   </body>
 </html>
