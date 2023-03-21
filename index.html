@@ -60,10 +60,17 @@
     </nav>
     <!-- navbarend -->
     <!-- searchbar -->
-    <div class="search-bar">
-      <div class="search-container">
-        <input type="text" placeholder="Search.." />
-      </div>
+    <div class="search-container">
+      <form action="/search">
+        <input type="text" placeholder="Search..." />
+        <button type="submit">
+          <div class="search">
+            <a class="search-logo">
+              <img src="Icons/search.png" alt="logo" />
+            </a>
+          </div>
+        </button>
+      </form>
     </div>
     <!-- searchbar-end -->
     <!-- ad-slide -->
@@ -71,13 +78,13 @@
     <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
-        <div class="numbertext">1 / 4</div>
+        <div class="numbertext">1 / 3</div>
         <img src="/Images/img1.jpg" alt="error" style="width: 100%" />
         <div class="text">Caption Text</div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
+        <div class="numbertext">2 / 3</div>
         <img src="Images/img2.jpg" alt="error" style="width: 100%" />
         <div class="text">Caption Two</div>
       </div>
@@ -101,6 +108,14 @@
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
     <!-- ad-slide-end -->
+    <!-- card session -->
+    <div class="container">
+      <div class="products">Best of Electronics</h2>
+        <div class="products-sub">
+        </div>
+      </div>
+    </div>
+    <!-- card session end -->
     <!-- script.js -->
     <script
       src="/Scripts/script.js"
