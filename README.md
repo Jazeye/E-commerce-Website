@@ -1,2 +1,2 @@
 # E-commerce-Website 
-here its http://jazeye.me/MukkamKart/
+here its https://mukkamkart.jazeye.me/
