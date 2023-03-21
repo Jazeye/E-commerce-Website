@@ -6,7 +6,7 @@ function navClick() {
 // slide
 let slideIndex = 1;
 showSlides(slideIndex);
-setInterval(function() {
+setInterval(function () {
   plusSlides(1);
 }, 2000);
 
