@@ -417,3 +417,22 @@ body {
   color: white;
 }
 /* card session end */
+/* footer */
+
+#footer{
+  padding: 4% 1%;
+  text-align: center;
+}
+#footer p{
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width:800px) {
+  #footer p{
+      font-size: 0.8rem !important;
+  }
+}
+/* footer */
+
