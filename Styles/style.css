@@ -103,7 +103,7 @@ body {
   text-decoration: none;
   border-radius: 10%;
 }
-.navbar-item a:hover {
+.navbar-item:hover {
   background: #94bddf;
   transition: 0.5s;
 }
@@ -146,7 +146,7 @@ body {
 
 /* Add hover effects to the search button */
 .search-container button:hover {
-  background: #ccc;
+  background: transparent;
 }
 .search-form {
   position: relative;
@@ -271,6 +271,7 @@ body {
 }
 .main-cont {
   display: flex;
+  margin-bottom: 8px;
 }
 .first-elem1 {
   width: 200px;
@@ -298,8 +299,7 @@ body {
 }
 
 /* box image code */
-.box1 {
-  background-image: url("/Images/mobiles.png");
+.box{
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -310,92 +310,7 @@ body {
   text-align: center;
   padding: 20px;
 }
-.box2 {
-  background-image: url("/Images/laptops.png");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-.box3 {
-  background-image: url("/Images/accessories.png");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-.box4 {
-  background-image: url("/Images/mens.png");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-.box5 {
-  background-image: url("/Images/womens.png");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-.box6 {
-  background-image: url("/Images/kids.png");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-.box1 h3 {
-  color: #ffffff;
-  font-size: 19px;
-  position: absolute;
-}
-.box2 h3 {
-  color: #ffffff;
-  font-size: 19px;
-  position: absolute;
-}
-.box3 h3 {
-  color: #ffffff;
-  font-size: 19px;
-  position: absolute;
-}
-.box4 h3 {
-  color: #ffffff;
-  font-size: 19px;
-  position: absolute;
-}
-.box5 h3 {
-  color: #ffffff;
-  font-size: 19px;
-  position: absolute;
-}
-.box6 h3 {
+.box h3 {
   color: #ffffff;
   font-size: 19px;
   position: absolute;
