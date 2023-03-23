@@ -54,6 +54,15 @@ body {
 }
 /*Responsive*/
 @media only screen and (max-width: 800px) {
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 10px;
+  }
   .navbar-menu {
     display: none;
   }
@@ -167,8 +176,8 @@ body {
   position: relative;
   margin: auto;
   top: 30px;
-  padding-left: 27px;
-  padding-right: 27px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 /* Hide the images by default */
