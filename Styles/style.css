@@ -258,7 +258,7 @@ body {
 /* card session  */
 .container {
   width: 100%;
-  height: 200px;
+  height: 300px;
   overflow-x: scroll;
   white-space: nowrap;
 }
@@ -266,40 +266,125 @@ body {
   display: inline-block;
   width: 200px;
   height: 200px;
-  background-color: rgb(55, 38, 153);
   margin-right: 20px;
 }
+/* card */
+.card
+{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 280px;
+  background: #122936;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card::before
+{
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  background: #2196f3;
+  transform: skewY(345deg);
+  transition: 0.5s;
+
+}
+.card:hover::before
+{
+    top: -70%;
+    transform: skewY(390deg);
+}
+.card::after
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 8cm;
+    color: rgba(0, 0, 0, 0.1);
+}
+.card .imgBox 
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  z-index: 1;
+
+}
+.card .imgBox img
+{
+    max-width: 100%;
+    transition: 0.5s;
+
+}
+.card:hover .imgBox img
+{
+    max-width: 50%;
+
+}
+.card .contentbox
+{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+
+}
+.card .contentbox h3
+{
+  font-size: 15px;
+  color: #ffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+.card .contentbox .price
+{
+  font-size: 15px;
+  color: #ffff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.card .contentbox .buy
+{
+   position: relative;
+   top: 200px;
+   padding: 10px 30px;
+   margin-top: 15px;
+   color: #ffff;
+   text-decoration: none;
+   background: #2196f3;
+   border-radius: 30px;
+   text-transform: 0.5s;
+   letter-spacing: 0.5ms;
+   transition: 0.5s;
+
+}
+.card:hover .contentbox .buy
+{
+   top: 0;
+   opacity: 1;
+}
+/* card */
 .main-cont {
   display: flex;
   margin-bottom: 8px;
 }
-.first-elem1 {
+.first-element {
   width: 200px;
-  height: 200px;
-}
-.first-elem2 {
-  width: 200px;
-  height: 200px;
-}
-.first-elem3 {
-  width: 200px;
-  height: 200px;
-}
-.first-elem4 {
-  width: 200px;
-  height: 200px;
-}
-.first-elem5 {
-  width: 200px;
-  height: 200px;
-}
-.first-elem6 {
-  width: 200px;
-  height: 200px;
+  height: 280px;
 }
 
 /* box image code */
-.box{
+.box {
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -334,20 +419,19 @@ body {
 /* card session end */
 /* footer */
 
-#footer{
-  padding: 4% 1%;
+#footer {
+  padding: 1% 1%;
   text-align: center;
 }
-#footer p{
+#footer p {
   margin-top: 20px;
   font-size: 1rem;
   font-weight: bold;
 }
 
-@media (max-width:800px) {
-  #footer p{
-      font-size: 0.8rem !important;
+@media (max-width: 800px) {
+  #footer p {
+    font-size: 0.8rem !important;
   }
 }
 /* footer */
-
