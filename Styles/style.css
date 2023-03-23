@@ -259,6 +259,7 @@ body {
 .container {
   width: 100%;
   height: 300px;
+  overflow: hidden;
   overflow-x: scroll;
   white-space: nowrap;
 }
@@ -375,7 +376,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px;
 }
 .box h3 {
   color: #ffffff;
@@ -400,6 +400,12 @@ body {
 }
 /* respovive */
 @media (max-width: 800px) {
+  .container {
+    width: 100%;
+    height: 300px;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
   .box h3 {
     color: #ffffff;
     font-size: 19px;
