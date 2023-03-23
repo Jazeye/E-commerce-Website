@@ -53,7 +53,7 @@ body {
   display: none;
 }
 /*Responsive*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .navbar-menu {
     display: none;
   }
@@ -361,6 +361,8 @@ body {
 .first-element {
   width: 200px;
   height: 280px;
+  margin-left: 2%;
+  margin-right: 10px;
 }
 
 /* box image code */
@@ -396,6 +398,32 @@ body {
   background-color: #008cba;
   color: white;
 }
+/* respovive */
+@media (max-width: 800px) {
+  .box h3 {
+    color: #ffffff;
+    font-size: 19px;
+    position: relative;
+    top: 40%;
+  }
+
+  .button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 100%;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: #008cba;
+    color: white;
+  }
+}
+/* respovive end*/
 /* card session end */
 /* footer */
 
@@ -408,10 +436,11 @@ body {
   font-size: 1rem;
   font-weight: bold;
 }
-
+/* respovive */
 @media (max-width: 800px) {
   #footer p {
     font-size: 0.8rem !important;
   }
 }
+/* respovive end */
 /* footer */
