@@ -265,13 +265,11 @@ body {
 .content {
   display: inline-block;
   width: 200px;
-  height: 200px;
+  height: 280px;
   margin-right: 20px;
 }
 /* card */
-.card
-{
-  display: inline-block;
+.card {
   position: relative;
   width: 200px;
   height: 280px;
@@ -279,9 +277,8 @@ body {
   border-radius: 20px;
   overflow: hidden;
 }
-.card::before
-{
-  content: '';
+.card::before {
+  content: "";
   position: absolute;
   top: 50%;
   width: 100%;
@@ -289,91 +286,74 @@ body {
   background: #2196f3;
   transform: skewY(345deg);
   transition: 0.5s;
-
 }
-.card:hover::before
-{
-    top: -70%;
-    transform: skewY(390deg);
+.card:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
 }
-.card::after
-{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-weight: 600;
-    font-size: 8cm;
-    color: rgba(0, 0, 0, 0.1);
+.card::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8cm;
+  color: rgba(0, 0, 0, 0.1);
 }
-.card .imgBox 
-{
+.card .imgBox {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 20px;
   z-index: 1;
-
 }
-.card .imgBox img
-{
-    max-width: 100%;
-    transition: 0.5s;
-
+.card .imgBox img {
+  max-width: 100%;
+  transition: 0.5s;
 }
-.card:hover .imgBox img
-{
-    max-width: 50%;
-
+.card:hover .imgBox img {
+  max-width: 50%;
 }
-.card .contentbox
-{
-    position: relative;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 1;
-
+.card .contentbox {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
 }
-.card .contentbox h3
-{
+.card .contentbox h3 {
   font-size: 15px;
   color: #ffff;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
-
 }
-.card .contentbox .price
-{
+.card .contentbox .price {
   font-size: 15px;
   color: #ffff;
   font-weight: 500;
   letter-spacing: 1px;
 }
-.card .contentbox .buy
-{
-   position: relative;
-   top: 200px;
-   padding: 10px 30px;
-   margin-top: 15px;
-   color: #ffff;
-   text-decoration: none;
-   background: #2196f3;
-   border-radius: 30px;
-   text-transform: 0.5s;
-   letter-spacing: 0.5ms;
-   transition: 0.5s;
-
+.card .contentbox .buy {
+  position: relative;
+  top: 200px;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #ffff;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 30px;
+  text-transform: 0.5s;
+  letter-spacing: 0.5ms;
+  transition: 0.5s;
 }
-.card:hover .contentbox .buy
-{
-   top: 0;
-   opacity: 1;
+.card:hover .contentbox .buy {
+  top: 0;
+  opacity: 1;
 }
-/* card */
+/* card end*/
 .main-cont {
   display: flex;
   margin-bottom: 8px;
