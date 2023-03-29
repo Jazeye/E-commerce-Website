@@ -1,7 +1,7 @@
 [
   {
     "id": "M001",
-    "image": "./Images/My project.png",
+    "image": "./Images/Mobiles/iPhone12.png",
     "name": "iPhone 12",
     "brand": "Apple",
     "price": 799.99,
@@ -10,7 +10,7 @@
   },
   {
     "id": "M002",
-    "image": "./Images/My project.png",
+    "image": "./Images/Mobiles/GalaxyS21.png",
     "name": "Galaxy S21",
     "brand": "Samsung",
     "price": 699.99,
@@ -19,7 +19,7 @@
   },
   {
     "id": "M003",
-    "image": "./Images/My project.png",
+    "image": "./Images/Mobiles/Pixel5.png",
     "name": "Pixel 5",
     "brand": "Google",
     "price": 699.0,
@@ -28,7 +28,7 @@
   },
   {
     "id": "M004",
-    "image": "./Images/My project.png",
+    "image": "./Images/Mobiles/OnePlus9Pro.png",
     "name": "OnePlus 9 Pro",
     "brand": "OnePlus",
     "price": 969.0,
@@ -37,7 +37,7 @@
   },
   {
     "id": "M005",
-    "image": "./Images/My project.png",
+    "image": "./Images/Mobiles/iPhone13.png",
     "name": "iPhone 13",
     "brand": "Apple",
     "price": 799.99,
@@ -46,7 +46,7 @@
   },
   {
     "id": "M006",
-    "image": "./Images/OnePlus 10.png",
+    "image": "./Images/Mobiles/OnePlus10.png",
     "name": "OnePlus 10",
     "brand": "OnePlus",
     "price": 899.99,
@@ -55,7 +55,7 @@
   },
   {
     "id": "L001",
-    "image": "./Images/My project.png",
+    "image": "./Images/Laptops/LenovoIdeaPad5.png",
     "name": "Lenovo IdeaPad 5",
     "brand": "Lenovo",
     "price": 799.99,
@@ -64,7 +64,7 @@
   },
   {
     "id": "L002",
-    "image": "./Images/My project.png",
+    "image": "./Images/Laptops/DellInspiron15.png",
     "name": "Dell Inspiron 15",
     "brand": "Dell",
     "price": 699.99,
@@ -73,7 +73,7 @@
   },
   {
     "id": "L003",
-    "image": "./Images/My project.png",
+    "image": "./Images/Laptops/AcerAspire5.png",
     "name": "Acer Aspire 5",
     "brand": "Acer",
     "price": 649.99,
@@ -82,7 +82,7 @@
   },
   {
     "id": "L004",
-    "image": "./Images/My project.png",
+    "image": "./Images/Laptops/My project.png",
     "name": "HP Pavilion x360",
     "brand": "HP",
     "price": 849.99,
@@ -91,7 +91,7 @@
   },
   {
     "id": "L005",
-    "image": "./Images/My project.png",
+    "image": "./Images/Laptops/My project.png",
     "name": "Apple MacBook Air",
     "brand": "Apple",
     "price": 999.99,
@@ -100,7 +100,7 @@
   },
   {
     "id": "L006",
-    "image": "./Images/My project.png",
+    "image": "./Images/Laptops/My project.png",
     "name": "Asus ZenBook 14",
     "brand": "Asus",
     "price": 899.99,
@@ -109,7 +109,7 @@
   },
   {
     "id": "L007",
-    "image": "./Images/Dell XPS 13.png",
+    "image": "./Images/Laptops/Dell XPS 13.png",
     "name": "Dell XPS 13",
     "brand": "Dell",
     "price": 1199.99,
