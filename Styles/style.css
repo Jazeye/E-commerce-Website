@@ -279,17 +279,13 @@ body {
 /* responsive end */
 /* ad-slide-end */
 /* card session  */
-#products {
-  overflow-x: scroll;
-  width: 100%;
-  height: 300px;
-}
-.container {
+.products {
+  display: flex;
+  flex-direction: row;
   width: 100%;
   height: 300px;
   overflow: hidden;
-  overflow-x: scroll;
-  white-space: nowrap;
+  overflow-x: auto;
 }
 .content {
   display: inline-block;
@@ -297,6 +293,24 @@ body {
   height: 280px;
   margin-right: 20px;
 }
+/* responsive card aling */
+@media (max-width: 800px) {
+  .products {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  .content {
+    display: inline-block;
+    width: 200px;
+    height: 280px;
+    margin-right: 20px;
+  }
+}
+/* responsive card aling end */
 /* card */
 .card {
   position: relative;
