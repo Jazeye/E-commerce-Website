@@ -1,14 +1,14 @@
-// findjson lines
+// Other page data show page json lines
 window.addEventListener("load", function () {
-    getJsonData("/data/products.json")
+    getJsonData("/Data/OtherpageData.json")
       .then((res) => {
         const products = res;
-        showProducts(res, "smartphone", "#phoneproducts");
-        showProducts(res, "Laptop", "#laptopproducts");
-        showProducts(res, "Accessories", "#Accessoryproducts");
-        showProducts(res, "Men", "#menproducts");
-        showProducts(res, "Women", "#womenproducts");
-        showProducts(res, "Kids", "#kidproducts");
+        showProducts(res, "phone", "#phoneproducts");
+        showProducts(res, "Laptops", "#laptopproducts");
+        showProducts(res, "Accessoriesod", "#Accessoryproducts");
+        showProducts(res, "Mens", "#menproducts");
+        showProducts(res, "Womens", "#womenproducts");
+        showProducts(res, "Kidses", "#kidproducts");
       })
       .catch((err) => console.log(err));
   });
@@ -36,7 +36,7 @@ window.addEventListener("load", function () {
                 <div class="contentbox">
                   <h3>${item.name}</h3>
                   <h2 class="price">${item.price}</h2>
-                  <a href="#" class="buy">Buy Now</a>
+                  <a href="#" class="buy">View Details</a>
                 </div>
               </div>
             </div>
@@ -68,12 +68,12 @@ window.addEventListener("load", function () {
   
   function showProducts(products, cat, _id) {
     // body...
-    const findProducts = products.find(
-      (product) => product._id === cat
+    const filteredProducts = products.filter(
+      (product) => product.category === cat
     );
-    let output = generateProductsHtml(findProducts);
+    let output = generateProductsHtml(filteredProducts);
     document.querySelector(_id).innerHTML = output;
   }
   
-  // find json lines end
+  //Other page data show page json lines end
   

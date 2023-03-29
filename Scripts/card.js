@@ -36,7 +36,7 @@ function generateProductsHtml(products) {
               <div class="contentbox">
                 <h3>${item.name}</h3>
                 <h2 class="price">${item.price}</h2>
-                <a href="#" class="buy">Buy Now</a>
+                <a href="#" class="buy">View Details</a>
               </div>
             </div>
           </div>
