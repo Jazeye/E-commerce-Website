@@ -5,7 +5,7 @@
     "name": "iPhone 12",
     "brand": "Apple",
     "price": 799.99,
-    "category": "smartphone",
+    "category": "phone",
     "description": "The iPhone 12 features a 6.1-inch Super Retina XDR display, 5G connectivity, A14 Bionic chip, dual-camera system, and iOS 14."
   },
   {
@@ -14,7 +14,7 @@
     "name": "Galaxy S21",
     "brand": "Samsung",
     "price": 699.99,
-    "category": "smartphone",
+    "category": "phone",
     "description": "The Galaxy S21 features a 6.2-inch Dynamic AMOLED 2X display, 5G connectivity, Exynos 2100 chip, triple-camera system, and Android 11."
   },
   {
@@ -23,7 +23,7 @@
     "name": "Pixel 5",
     "brand": "Google",
     "price": 699.0,
-    "category": "smartphone",
+    "category": "phone",
     "description": "The Pixel 5 features a 6.0-inch OLED display, 5G connectivity, Snapdragon 765G chip, dual-camera system, and Android 11."
   },
   {
@@ -32,7 +32,7 @@
     "name": "OnePlus 9 Pro",
     "brand": "OnePlus",
     "price": 969.0,
-    "category": "smartphone",
+    "category": "phone",
     "description": "The OnePlus 9 Pro features a 6.7-inch Fluid AMOLED display, 5G connectivity, Snapdragon 888 chip, quad-camera system, and Android 11."
   },
   {
@@ -41,7 +41,7 @@
     "name": "iPhone 13",
     "brand": "Apple",
     "price": 799.99,
-    "category": "smartphone",
+    "category": "phone",
     "description": "The iPhone 13 features a 6.1-inch Super Retina XDR display, 5G connectivity, A15 Bionic chip, dual-camera system, and iOS 15."
   },
   {
@@ -50,7 +50,7 @@
     "name": "OnePlus 10",
     "brand": "OnePlus",
     "price": 899.99,
-    "category": "smartphone",
+    "category": "phone",
     "description": "The OnePlus 10 features a 6.7-inch Fluid AMOLED display, 5G connectivity, Qualcomm Snapdragon 8 Gen 1 chipset, quad-camera system, and OxygenOS 12 based on Android 13."
   },
   {

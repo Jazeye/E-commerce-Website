@@ -124,7 +124,7 @@
   {
     "id": "002",
     "image": "./Images/Accessories/LogitechM720.png",
-    "name": "Logitech M720 Triathlon Mouse",
+    "name": "Logitech M720 Mouse",
     "brand": "Logitech",
     "price": 49.99,
     "category": "Accessories",
@@ -141,7 +141,7 @@
   {
     "id": "003",
     "image": "./Images/Accessories/JabraSpeaker.png",
-    "name": "Jabra Speak 710 Speakerphone",
+    "name": "Jabra Speak 710",
     "brand": "Jabra",
     "price": 299.99,
     "category": "Accessories",
@@ -158,7 +158,7 @@
   {
     "id": "004",
     "image": "./Images/Accessories/SamsungT5SSD.png",
-    "name": "Samsung T5 Portable SSD",
+    "name": "Samsung SSD",
     "brand": "Samsung",
     "price": 89.99,
     "category": "Accessories",
@@ -175,7 +175,7 @@
   {
     "id": "005",
     "image": "./Images/Accessories/AnkerPowerCore.png",
-    "name": "Anker PowerCore 10000 Portable Charger",
+    "name": "Anker 10000",
     "brand": "Anker",
     "price": 29.99,
     "category": "Accessories",
@@ -192,7 +192,7 @@
   {
     "id": "006",
     "image": "./Images/Accessories/Webcam.png",
-    "name": "Logitech C920s HD Pro Webcam",
+    "name": "Logitech HD Webcam",
     "brand": "Logitech",
     "price": 69.99,
     "category": "Accessories",
