@@ -82,16 +82,7 @@
   },
   {
     "id": "L004",
-    "image": "./Images/Laptops/My project.png",
-    "name": "HP Pavilion x360",
-    "brand": "HP",
-    "price": 849.99,
-    "category": "Convertible Laptop",
-    "description": "The HP Pavilion x360 is a versatile 2-in-1 laptop that can be used in a variety of modes, including laptop, tablet, and tent. It offers good performance and a responsive touchscreen display."
-  },
-  {
-    "id": "L005",
-    "image": "./Images/Laptops/My project.png",
+    "image": "./Images/Laptops/ApplMacBookAir.png",
     "name": "Apple MacBook Air",
     "brand": "Apple",
     "price": 999.99,
@@ -99,8 +90,8 @@
     "description": "The Apple MacBook Air is a lightweight and portable laptop that offers excellent battery life and a stunning Retina display, making it a great choice for students and professionals on the go."
   },
   {
-    "id": "L006",
-    "image": "./Images/Laptops/My project.png",
+    "id": "L005",
+    "image": "./Images/Laptops/AsusZenBook14.png",
     "name": "Asus ZenBook 14",
     "brand": "Asus",
     "price": 899.99,
@@ -108,8 +99,8 @@
     "description": "The Asus ZenBook 14 is a slim and stylish laptop that offers good performance and a comfortable keyboard, making it a great choice for productivity and entertainment."
   },
   {
-    "id": "L007",
-    "image": "./Images/Laptops/Dell XPS 13.png",
+    "id": "L006",
+    "image": "./Images/Laptops/DellXPS13.png",
     "name": "Dell XPS 13",
     "brand": "Dell",
     "price": 1199.99,
@@ -118,6 +109,7 @@
   },
   {
     "id": "001",
+    "image": "./Images/Accessories/LenovoUSB-CHub.png",
     "name": "Lenovo USB-C Hub",
     "brand": "Lenovo",
     "price": 49.99,
@@ -131,6 +123,7 @@
   },
   {
     "id": "002",
+    "image": "./Images/Accessories/LogitechM720.png",
     "name": "Logitech M720 Triathlon Mouse",
     "brand": "Logitech",
     "price": 49.99,
@@ -147,6 +140,7 @@
   },
   {
     "id": "003",
+    "image": "./Images/Accessories/JabraSpeaker.png",
     "name": "Jabra Speak 710 Speakerphone",
     "brand": "Jabra",
     "price": 299.99,
@@ -163,6 +157,7 @@
   },
   {
     "id": "004",
+    "image": "./Images/Accessories/SamsungT5SSD.png",
     "name": "Samsung T5 Portable SSD",
     "brand": "Samsung",
     "price": 89.99,
@@ -179,6 +174,7 @@
   },
   {
     "id": "005",
+    "image": "./Images/Accessories/AnkerPowerCore.png",
     "name": "Anker PowerCore 10000 Portable Charger",
     "brand": "Anker",
     "price": 29.99,
@@ -195,6 +191,7 @@
   },
   {
     "id": "006",
+    "image": "./Images/Accessories/Webcam.png",
     "name": "Logitech C920s HD Pro Webcam",
     "brand": "Logitech",
     "price": 69.99,
@@ -211,7 +208,8 @@
   },
   {
     "id": "001",
-    "name": "Men's Slim-Fit Dress Shirt",
+    "image": "./Images/Mens dress/whiteshirt.png",
+    "name": "Slim-Fit Shirt",
     "brand": "Calvin Klein",
     "price": 59.99,
     "category": "Men",
@@ -222,7 +220,8 @@
   },
   {
     "id": "002",
-    "name": "Men's Classic-Fit Suit Jacket",
+    "image": "./Images/Mens dress/jacket.png",
+    "name": "Classic-Fit Jacket",
     "brand": "Ralph Lauren",
     "price": 249.99,
     "category": "Men",
@@ -233,7 +232,8 @@
   },
   {
     "id": "003",
-    "name": "Men's Slim-Fit Dress Pants",
+    "image": "./Images/Mens dress/pant.png",
+    "name": "Slim-Fit Pants",
     "brand": "Banana Republic",
     "price": 89.99,
     "category": "Men",
@@ -244,7 +244,8 @@
   },
   {
     "id": "004",
-    "name": "Men's Leather Dress Shoes",
+    "image": "./Images/Mens dress/shoes.png",
+    "name": "Leather Shoes",
     "brand": "Allen Edmonds",
     "price": 395.0,
     "category": "Men",
@@ -255,7 +256,8 @@
   },
   {
     "id": "005",
-    "name": "Men's Silk Tie",
+    "image": "./Images/Mens dress/tie.png",
+    "name": "Silk Tie",
     "brand": "Hugo Boss",
     "price": 79.99,
     "category": "Men",
@@ -266,7 +268,8 @@
   },
   {
     "id": "006",
-    "name": "Men's Dress Watch",
+    "image": "./Images/Mens dress/watch.png",
+    "name": "Watch",
     "brand": "Tissot",
     "price": 399.0,
     "category": "Men",
@@ -277,7 +280,8 @@
   },
   {
     "id": "001",
-    "name": "Women's Wrap Dress",
+    "image": "./Images/Womens dress/RedWrap.png",
+    "name": "Wrap",
     "brand": "Diane von Furstenberg",
     "price": 398.0,
     "category": "Women",
@@ -288,7 +292,8 @@
   },
   {
     "id": "002",
-    "name": "Women's Cocktail Dress",
+    "image": "./Images/Womens dress/Cocktail.png",
+    "name": "Cocktail",
     "brand": "Badgley Mischka",
     "price": 295.0,
     "category": "Women",
@@ -299,7 +304,8 @@
   },
   {
     "id": "003",
-    "name": "Women's Maxi Dress",
+    "image": "./Images/Womens dress/maxi.png",
+    "name": "Puff Sleeve Maxi",
     "brand": "Free People",
     "price": 128.0,
     "category": "Women",
@@ -310,7 +316,8 @@
   },
   {
     "id": "004",
-    "name": "Women's Little Black Dress",
+    "image": "./Images/Womens dress/black.png",
+    "name": "Black-Colour Dress",
     "brand": "Theory",
     "price": 295.0,
     "category": "Women",
@@ -321,18 +328,20 @@
   },
   {
     "id": "005",
-    "name": "Women's Shift Dress",
-    "brand": "Reformation",
+    "image": "./Images/Womens dress/saree.png",
+    "name": "Georgette Sarees",
+    "brand": "Georgette",
     "price": 148.0,
     "category": "Women",
-    "description": "This Reformation shift dress features a chic and modern design, made from sustainable materials.",
-    "color": "Green",
+    "description": "Classy, sensuous and versatile are the perfect words to describe these sarees",
+    "color": "Pink",
     "size": "S",
     "material": "Tencel"
   },
   {
     "id": "006",
-    "name": "Women's Floral Print Dress",
+    "image": "./Images/Womens dress/Floral.png",
+    "name": "Floral Print Dress",
     "brand": "Kate Spade New York",
     "price": 368.0,
     "category": "Women",
@@ -343,6 +352,7 @@
   },
   {
     "id": "001",
+    "image": "./Images/Kids/Sundress.png",
     "name": "Girls' Sundress",
     "brand": "Old Navy",
     "price": 24.99,
@@ -354,7 +364,8 @@
   },
   {
     "id": "002",
-    "name": "Boys' Polo Shirt and Shorts Set",
+    "image": "./Images/Kids/PoloShirt.png",
+    "name": "Polo Shirt & Shorts",
     "brand": "Ralph Lauren",
     "price": 65.0,
     "category": "Kids",
@@ -365,6 +376,7 @@
   },
   {
     "id": "003",
+    "image": "./Images/Kids/Tulle.png",
     "name": "Girls' Tulle Dress",
     "brand": "H&M",
     "price": 34.99,
@@ -376,7 +388,8 @@
   },
   {
     "id": "004",
-    "name": "Boys' Plaid Shirt and Khaki Pants Set",
+    "image": "./Images/Kids/PlaidShirt.png",
+    "name": "Plaid Shirt & Pants",
     "brand": "Gap",
     "price": 49.99,
     "category": "Kids",
@@ -387,7 +400,8 @@
   },
   {
     "id": "005",
-    "name": "Girls' Denim Dress",
+    "image": "./Images/Kids/Denim.png",
+    "name": "Denim Dress",
     "brand": "Levi's",
     "price": 39.99,
     "category": "Kids",
@@ -398,7 +412,8 @@
   },
   {
     "id": "006",
-    "name": "Boys' Button-Down Shirt",
+    "image": "./Images/Kids/shirt.png",
+    "name": "Shirt",
     "brand": "Carter's",
     "price": 14.99,
     "category": "Kids",
