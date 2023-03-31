@@ -59,8 +59,8 @@
     "name": "Lenovo IdeaPad 5",
     "brand": "Lenovo",
     "price": 799.99,
-    "category": "Laptop",
-    "description": "The Lenovo IdeaPad 5 is a great all-around laptop that offers solid performance and a comfortable keyboard at an affordable price."
+    "category": "Laptops",
+    "description": "The Lenovo IdeaPad 5 is a great all-around Laptops that offers solid performance and a comfortable keyboard at an affordable price."
   },
   {
     "id": "L002",
@@ -68,8 +68,8 @@
     "name": "Dell Inspiron 15",
     "brand": "Dell",
     "price": 699.99,
-    "category": "Laptop",
-    "description": "The Dell Inspiron 15 is a budget-friendly laptop that offers decent performance for everyday tasks and a large 15.6-inch display."
+    "category": "Laptops",
+    "description": "The Dell Inspiron 15 is a budget-friendly Laptops that offers decent performance for everyday tasks and a large 15.6-inch display."
   },
   {
     "id": "L003",
@@ -77,8 +77,8 @@
     "name": "Acer Aspire 5",
     "brand": "Acer",
     "price": 649.99,
-    "category": "Laptop",
-    "description": "The Acer Aspire 5 is a solid mid-range laptop that offers good performance and a comfortable keyboard, making it a great choice for students and professionals."
+    "category": "Laptops",
+    "description": "The Acer Aspire 5 is a solid mid-range Laptops that offers good performance and a comfortable keyboard, making it a great choice for students and professionals."
   },
   {
     "id": "L004",
@@ -86,8 +86,8 @@
     "name": "Apple MacBook Air",
     "brand": "Apple",
     "price": 999.99,
-    "category": "Laptop",
-    "description": "The Apple MacBook Air is a lightweight and portable laptop that offers excellent battery life and a stunning Retina display, making it a great choice for students and professionals on the go."
+    "category": "Laptops",
+    "description": "The Apple MacBook Air is a lightweight and portable Laptops that offers excellent battery life and a stunning Retina display, making it a great choice for students and professionals on the go."
   },
   {
     "id": "L005",
@@ -95,8 +95,8 @@
     "name": "Asus ZenBook 14",
     "brand": "Asus",
     "price": 899.99,
-    "category": "Laptop",
-    "description": "The Asus ZenBook 14 is a slim and stylish laptop that offers good performance and a comfortable keyboard, making it a great choice for productivity and entertainment."
+    "category": "Laptops",
+    "description": "The Asus ZenBook 14 is a slim and stylish Laptops that offers good performance and a comfortable keyboard, making it a great choice for productivity and entertainment."
   },
   {
     "id": "L006",
@@ -104,16 +104,16 @@
     "name": "Dell XPS 13",
     "brand": "Dell",
     "price": 1199.99,
-    "category": "Laptop",
+    "category": "Laptops",
     "description": "The Dell XPS 13 features a 13.3-inch Full HD InfinityEdge display, 11th Generation Intel Core i7 processor, 16GB of RAM, 512GB SSD storage, Intel Iris Xe graphics, and Windows 10 Home."
   },
   {
-    "id": "001",
+    "id": "A001",
     "image": "./Images/Accessories/LenovoUSB-CHub.png",
     "name": "Lenovo USB-C Hub",
     "brand": "Lenovo",
     "price": 49.99,
-    "category": "Accessories",
+    "category": "Accessoriesod",
     "description": "The Lenovo USB-C Hub is a convenient accessory that expands the connectivity options of your laptop with additional USB and HDMI ports.",
     "compatible_devices": [
       "Lenovo IdeaPad 5",
@@ -122,12 +122,12 @@
     ]
   },
   {
-    "id": "002",
+    "id": "A002",
     "image": "./Images/Accessories/LogitechM720.png",
-    "name": "Logitech M720 Triathlon Mouse",
+    "name": "Logitech M720 Mouse",
     "brand": "Logitech",
     "price": 49.99,
-    "category": "Accessories",
+    "category": "Accessoriesod",
     "description": "The Logitech M720 Triathlon Mouse is a versatile wireless mouse that can connect to up to three devices and offers long battery life.",
     "compatible_devices": [
       "Lenovo IdeaPad 5",
@@ -139,12 +139,12 @@
     ]
   },
   {
-    "id": "003",
+    "id": "A003",
     "image": "./Images/Accessories/JabraSpeaker.png",
-    "name": "Jabra Speak 710 Speakerphone",
+    "name": "Jabra Speak 710",
     "brand": "Jabra",
     "price": 299.99,
-    "category": "Accessories",
+    "category": "Accessoriesod",
     "description": "The Jabra Speak 710 Speakerphone is a high-quality conference speakerphone that offers great sound quality and convenient connectivity options.",
     "compatible_devices": [
       "Lenovo IdeaPad 5",
@@ -156,12 +156,12 @@
     ]
   },
   {
-    "id": "004",
+    "id": "A004",
     "image": "./Images/Accessories/SamsungT5SSD.png",
-    "name": "Samsung T5 Portable SSD",
+    "name": "Samsung SSD",
     "brand": "Samsung",
     "price": 89.99,
-    "category": "Accessories",
+    "category": "Accessoriesod",
     "description": "The Samsung T5 Portable SSD is a fast and compact external drive that offers reliable and secure storage for your files.",
     "compatible_devices": [
       "Lenovo IdeaPad 5",
@@ -173,12 +173,12 @@
     ]
   },
   {
-    "id": "005",
+    "id": "A005",
     "image": "./Images/Accessories/AnkerPowerCore.png",
-    "name": "Anker PowerCore 10000 Portable Charger",
+    "name": "Anker 10000",
     "brand": "Anker",
     "price": 29.99,
-    "category": "Accessories",
+    "category": "Accessoriesod",
     "description": "The Anker PowerCore 10000 Portable Charger is a compact and high-capacity power bank that can charge your devices on the go.",
     "compatible_devices": [
       "Lenovo IdeaPad 5",
@@ -190,12 +190,12 @@
     ]
   },
   {
-    "id": "006",
+    "id": "A006",
     "image": "./Images/Accessories/Webcam.png",
-    "name": "Logitech C920s HD Pro Webcam",
+    "name": "Logitech HD Webcam",
     "brand": "Logitech",
     "price": 69.99,
-    "category": "Accessories",
+    "category": "Accessoriesod",
     "description": "The Logitech C920s HD Pro Webcam is a high-quality webcam that offers clear and sharp video and audio for your online meetings and conferences.",
     "compatible_devices": [
       "Lenovo IdeaPad 5",
@@ -207,216 +207,216 @@
     ]
   },
   {
-    "id": "001",
+    "id": "P001",
     "image": "./Images/Mens dress/whiteshirt.png",
     "name": "Slim-Fit Shirt",
     "brand": "Calvin Klein",
     "price": 59.99,
-    "category": "Men",
+    "category": "Mens",
     "description": "This Calvin Klein slim-fit dress shirt is made from high-quality cotton and features a modern, sophisticated design.",
     "color": "White",
     "size": "M",
     "material": "Cotton"
   },
   {
-    "id": "002",
+    "id": "P002",
     "image": "./Images/Mens dress/jacket.png",
     "name": "Classic-Fit Jacket",
     "brand": "Ralph Lauren",
     "price": 249.99,
-    "category": "Men",
+    "category": "Mens",
     "description": "This Ralph Lauren suit jacket is made from fine wool and features a classic fit that is perfect for any formal occasion.",
     "color": "Navy",
     "size": "42R",
     "material": "Wool"
   },
   {
-    "id": "003",
+    "id": "P003",
     "image": "./Images/Mens dress/pant.png",
     "name": "Slim-Fit Pants",
     "brand": "Banana Republic",
     "price": 89.99,
-    "category": "Men",
+    "category": "Mens",
     "description": "These Banana Republic dress pants are made from a premium wool blend and feature a slim fit that is both modern and comfortable.",
     "color": "Charcoal",
     "size": "32x32",
     "material": "Wool Blend"
   },
   {
-    "id": "004",
+    "id": "P004",
     "image": "./Images/Mens dress/shoes.png",
     "name": "Leather Shoes",
     "brand": "Allen Edmonds",
     "price": 395.0,
-    "category": "Men",
+    "category": "Mens",
     "description": "These Allen Edmonds leather dress shoes are handcrafted in the USA and feature a timeless, elegant design.",
     "color": "Black",
     "size": "10.5",
     "material": "Leather"
   },
   {
-    "id": "005",
+    "id": "P005",
     "image": "./Images/Mens dress/tie.png",
     "name": "Silk Tie",
     "brand": "Hugo Boss",
     "price": 79.99,
-    "category": "Men",
+    "category": "Mens",
     "description": "This Hugo Boss silk tie features a classic design and is perfect for adding a touch of elegance to any formal outfit.",
     "color": "Navy",
     "size": "One Size",
     "material": "Silk"
   },
   {
-    "id": "006",
+    "id": "P006",
     "image": "./Images/Mens dress/watch.png",
     "name": "Watch",
     "brand": "Tissot",
     "price": 399.0,
-    "category": "Men",
+    "category": "Mens",
     "description": "This Tissot dress watch features a sleek and sophisticated design, with a stainless steel case and leather strap.",
     "color": "Silver",
     "size": "One Size",
     "material": "Stainless Steel"
   },
   {
-    "id": "001",
+    "id": "W001",
     "image": "./Images/Womens dress/RedWrap.png",
     "name": "Wrap",
     "brand": "Diane von Furstenberg",
     "price": 398.0,
-    "category": "Women",
+    "category": "Womens",
     "description": "This iconic Diane von Furstenberg wrap dress features a flattering silhouette and bold print.",
     "color": "Black/White",
     "size": "4",
     "material": "Silk"
   },
   {
-    "id": "002",
+    "id": "W002",
     "image": "./Images/Womens dress/Cocktail.png",
     "name": "Cocktail",
     "brand": "Badgley Mischka",
     "price": 295.0,
-    "category": "Women",
+    "category": "Womens",
     "description": "This Badgley Mischka cocktail dress features a classic design with intricate beading and lace detailing.",
     "color": "Navy",
     "size": "6",
     "material": "Polyester"
   },
   {
-    "id": "003",
+    "id": "W003",
     "image": "./Images/Womens dress/maxi.png",
     "name": "Puff Sleeve Maxi",
     "brand": "Free People",
     "price": 128.0,
-    "category": "Women",
+    "category": "Womens",
     "description": "This Free People maxi dress features a bohemian-inspired design and lightweight fabric for a comfortable fit.",
     "color": "Coral",
     "size": "XS",
     "material": "Viscose"
   },
   {
-    "id": "004",
+    "id": "W004",
     "image": "./Images/Womens dress/black.png",
     "name": "Black-Colour Dress",
     "brand": "Theory",
     "price": 295.0,
-    "category": "Women",
+    "category": "Womens",
     "description": "This Theory little black dress features a simple yet elegant design with a flattering fit.",
     "color": "Black",
     "size": "8",
     "material": "Wool Blend"
   },
   {
-    "id": "005",
+    "id": "W005",
     "image": "./Images/Womens dress/saree.png",
     "name": "Georgette Sarees",
     "brand": "Georgette",
     "price": 148.0,
-    "category": "Women",
+    "category": "Womens",
     "description": "Classy, sensuous and versatile are the perfect words to describe these sarees",
     "color": "Pink",
     "size": "S",
     "material": "Tencel"
   },
   {
-    "id": "006",
+    "id": "W006",
     "image": "./Images/Womens dress/Floral.png",
     "name": "Floral Print Dress",
     "brand": "Kate Spade New York",
     "price": 368.0,
-    "category": "Women",
+    "category": "Womens",
     "description": "This Kate Spade New York dress features a vibrant floral print and flattering fit-and-flare silhouette.",
     "color": "Pink/Multi",
     "size": "10",
     "material": "Cotton"
   },
   {
-    "id": "001",
+    "id": "K001",
     "image": "./Images/Kids/Sundress.png",
     "name": "Girls' Sundress",
     "brand": "Old Navy",
     "price": 24.99,
-    "category": "Kids",
+    "category": "Kidses",
     "description": "This Old Navy sundress is perfect for warm weather with a colorful floral print and lightweight fabric.",
     "color": "Pink/Multi",
     "size": "6",
     "material": "Cotton"
   },
   {
-    "id": "002",
+    "id": "K002",
     "image": "./Images/Kids/PoloShirt.png",
     "name": "Polo Shirt & Shorts",
     "brand": "Ralph Lauren",
     "price": 65.0,
-    "category": "Kids",
+    "category": "Kidses",
     "description": "This Ralph Lauren polo shirt and shorts set is perfect for any occasion with classic style and comfort.",
     "color": "Navy/White",
     "size": "10",
     "material": "Cotton"
   },
   {
-    "id": "003",
+    "id": "K003",
     "image": "./Images/Kids/Tulle.png",
     "name": "Girls' Tulle Dress",
     "brand": "H&M",
     "price": 34.99,
-    "category": "Kids",
+    "category": "Kidses",
     "description": "This H&M tulle dress is perfect for special occasions with a sparkling sequin bodice and flowing tulle skirt.",
     "color": "Pink",
     "size": "8",
     "material": "Polyester"
   },
   {
-    "id": "004",
+    "id": "K004",
     "image": "./Images/Kids/PlaidShirt.png",
     "name": "Plaid Shirt & Pants",
     "brand": "Gap",
     "price": 49.99,
-    "category": "Kids",
+    "category": "Kidses",
     "description": "This Gap plaid shirt and khaki pants set is perfect for any casual occasion with classic style and comfort.",
     "color": "Red/Navy",
     "size": "12",
     "material": "Cotton"
   },
   {
-    "id": "005",
+    "id": "K005",
     "image": "./Images/Kids/Denim.png",
     "name": "Denim Dress",
     "brand": "Levi's",
     "price": 39.99,
-    "category": "Kids",
+    "category": "Kidses",
     "description": "This Levi's denim dress is perfect for any occasion with a classic design and comfortable fit.",
     "color": "Blue",
     "size": "6",
     "material": "Cotton"
   },
   {
-    "id": "006",
+    "id": "K006",
     "image": "./Images/Kids/shirt.png",
     "name": "Shirt",
     "brand": "Carter's",
     "price": 14.99,
-    "category": "Kids",
+    "category": "Kidses",
     "description": "This Carter's button-down shirt is perfect for any occasion with a classic design and comfortable fit.",
     "color": "White",
     "size": "4",
