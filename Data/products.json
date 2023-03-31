@@ -108,7 +108,7 @@
     "description": "The Dell XPS 13 features a 13.3-inch Full HD InfinityEdge display, 11th Generation Intel Core i7 processor, 16GB of RAM, 512GB SSD storage, Intel Iris Xe graphics, and Windows 10 Home."
   },
   {
-    "id": "001",
+    "id": "A001",
     "image": "./Images/Accessories/LenovoUSB-CHub.png",
     "name": "Lenovo USB-C Hub",
     "brand": "Lenovo",
@@ -122,7 +122,7 @@
     ]
   },
   {
-    "id": "002",
+    "id": "A002",
     "image": "./Images/Accessories/LogitechM720.png",
     "name": "Logitech M720 Mouse",
     "brand": "Logitech",
@@ -139,7 +139,7 @@
     ]
   },
   {
-    "id": "003",
+    "id": "A003",
     "image": "./Images/Accessories/JabraSpeaker.png",
     "name": "Jabra Speak 710",
     "brand": "Jabra",
@@ -156,7 +156,7 @@
     ]
   },
   {
-    "id": "004",
+    "id": "A004",
     "image": "./Images/Accessories/SamsungT5SSD.png",
     "name": "Samsung SSD",
     "brand": "Samsung",
@@ -173,7 +173,7 @@
     ]
   },
   {
-    "id": "005",
+    "id": "A005",
     "image": "./Images/Accessories/AnkerPowerCore.png",
     "name": "Anker 10000",
     "brand": "Anker",
@@ -190,7 +190,7 @@
     ]
   },
   {
-    "id": "006",
+    "id": "A006",
     "image": "./Images/Accessories/Webcam.png",
     "name": "Logitech HD Webcam",
     "brand": "Logitech",
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "id": "001",
+    "id": "P001",
     "image": "./Images/Mens dress/whiteshirt.png",
     "name": "Slim-Fit Shirt",
     "brand": "Calvin Klein",
@@ -219,7 +219,7 @@
     "material": "Cotton"
   },
   {
-    "id": "002",
+    "id": "P002",
     "image": "./Images/Mens dress/jacket.png",
     "name": "Classic-Fit Jacket",
     "brand": "Ralph Lauren",
@@ -231,7 +231,7 @@
     "material": "Wool"
   },
   {
-    "id": "003",
+    "id": "P003",
     "image": "./Images/Mens dress/pant.png",
     "name": "Slim-Fit Pants",
     "brand": "Banana Republic",
@@ -243,7 +243,7 @@
     "material": "Wool Blend"
   },
   {
-    "id": "004",
+    "id": "P004",
     "image": "./Images/Mens dress/shoes.png",
     "name": "Leather Shoes",
     "brand": "Allen Edmonds",
@@ -255,7 +255,7 @@
     "material": "Leather"
   },
   {
-    "id": "005",
+    "id": "P005",
     "image": "./Images/Mens dress/tie.png",
     "name": "Silk Tie",
     "brand": "Hugo Boss",
@@ -267,7 +267,7 @@
     "material": "Silk"
   },
   {
-    "id": "006",
+    "id": "P006",
     "image": "./Images/Mens dress/watch.png",
     "name": "Watch",
     "brand": "Tissot",
@@ -279,7 +279,7 @@
     "material": "Stainless Steel"
   },
   {
-    "id": "001",
+    "id": "W001",
     "image": "./Images/Womens dress/RedWrap.png",
     "name": "Wrap",
     "brand": "Diane von Furstenberg",
@@ -291,7 +291,7 @@
     "material": "Silk"
   },
   {
-    "id": "002",
+    "id": "W002",
     "image": "./Images/Womens dress/Cocktail.png",
     "name": "Cocktail",
     "brand": "Badgley Mischka",
@@ -303,7 +303,7 @@
     "material": "Polyester"
   },
   {
-    "id": "003",
+    "id": "W003",
     "image": "./Images/Womens dress/maxi.png",
     "name": "Puff Sleeve Maxi",
     "brand": "Free People",
@@ -315,7 +315,7 @@
     "material": "Viscose"
   },
   {
-    "id": "004",
+    "id": "W004",
     "image": "./Images/Womens dress/black.png",
     "name": "Black-Colour Dress",
     "brand": "Theory",
@@ -327,7 +327,7 @@
     "material": "Wool Blend"
   },
   {
-    "id": "005",
+    "id": "W005",
     "image": "./Images/Womens dress/saree.png",
     "name": "Georgette Sarees",
     "brand": "Georgette",
@@ -339,7 +339,7 @@
     "material": "Tencel"
   },
   {
-    "id": "006",
+    "id": "W006",
     "image": "./Images/Womens dress/Floral.png",
     "name": "Floral Print Dress",
     "brand": "Kate Spade New York",
@@ -351,7 +351,7 @@
     "material": "Cotton"
   },
   {
-    "id": "001",
+    "id": "K001",
     "image": "./Images/Kids/Sundress.png",
     "name": "Girls' Sundress",
     "brand": "Old Navy",
@@ -363,7 +363,7 @@
     "material": "Cotton"
   },
   {
-    "id": "002",
+    "id": "K002",
     "image": "./Images/Kids/PoloShirt.png",
     "name": "Polo Shirt & Shorts",
     "brand": "Ralph Lauren",
@@ -375,7 +375,7 @@
     "material": "Cotton"
   },
   {
-    "id": "003",
+    "id": "K003",
     "image": "./Images/Kids/Tulle.png",
     "name": "Girls' Tulle Dress",
     "brand": "H&M",
@@ -387,7 +387,7 @@
     "material": "Polyester"
   },
   {
-    "id": "004",
+    "id": "K004",
     "image": "./Images/Kids/PlaidShirt.png",
     "name": "Plaid Shirt & Pants",
     "brand": "Gap",
@@ -399,7 +399,7 @@
     "material": "Cotton"
   },
   {
-    "id": "005",
+    "id": "K005",
     "image": "./Images/Kids/Denim.png",
     "name": "Denim Dress",
     "brand": "Levi's",
@@ -411,7 +411,7 @@
     "material": "Cotton"
   },
   {
-    "id": "006",
+    "id": "K006",
     "image": "./Images/Kids/shirt.png",
     "name": "Shirt",
     "brand": "Carter's",
