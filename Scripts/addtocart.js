@@ -1,50 +1,29 @@
+//Get Id From Main Page
+let url = window.location.search;
+  let queryString = new URLSearchParams(url);
+  console.log(url);
+  const id = queryString.get("id");
 // findjson lines
 window.addEventListener("load", function () {
     getJsonData("/data/products.json")
       .then((res) => {
         const products = res;
-        showProducts(res, "smartphone", "#phoneproducts");
-        showProducts(res, "Laptop", "#laptopproducts");
-        showProducts(res, "Accessories", "#Accessoryproducts");
-        showProducts(res, "Men", "#menproducts");
-        showProducts(res, "Women", "#womenproducts");
-        showProducts(res, "Kids", "#kidproducts");
+        const product = products.find((item) => item.id === id);
+        console.log(product);
+        loadProduct(product);
       })
       .catch((err) => console.log(err));
   });
   
-  function getCategories(products) {
-    const categories = [];
-    for (let product of products) {
-      if (!categories.includes(product.category)) {
-        categories.push(product.category);
-      }
-    }
-    return categories;
+  //Showing Product Data
+ function loadProduct(pro){
+    document.getElementById('pro-name').innerText = pro.name;
+    document.getElementById('pro-price').innerText = pro.price;
+    document.getElementById('pro-img').src = pro.image;
+    document.getElementById('pro-disc').innerText = pro.description;
   }
   
-  function generateProductsHtml(products) {
-    let output = "";
-    for (let item of products) {
-      output += `
-          <div class="container">
-            <div class="content">
-              <div class="card">
-                <div class="imgBox">
-                  <img src="${item.image}"/>
-                </div>
-                <div class="contentbox">
-                  <h3>${item.name}</h3>
-                  <h2 class="price">${item.price}</h2>
-                  <a href="#" class="buy">Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        `;
-    }
-    return output;
-  }
+  
   
   function getJsonData(url) {
     return new Promise((resolve, reject) => {
@@ -66,14 +45,7 @@ window.addEventListener("load", function () {
     });
   }
   
-  function showProducts(products, cat, _id) {
-    // body...
-    const findProducts = products.find(
-      (product) => product._id === cat
-    );
-    let output = generateProductsHtml(findProducts);
-    document.querySelector(_id).innerHTML = output;
-  }
+  
   
   // find json lines end
   

@@ -1,7 +1,7 @@
 [
   {
     "id": "M001",
-    "image": "./Images/Mobiles/iPhone12.png",
+    "image": "/Images/Mobiles/iPhone12.png",
     "name": "iPhone 12",
     "brand": "Apple",
     "price": 799.99,
@@ -10,7 +10,7 @@
   },
   {
     "id": "M002",
-    "image": "./Images/Mobiles/GalaxyS21.png",
+    "image": "/Images/Mobiles/GalaxyS21.png",
     "name": "Galaxy S21",
     "brand": "Samsung",
     "price": 699.99,
@@ -19,7 +19,7 @@
   },
   {
     "id": "M003",
-    "image": "./Images/Mobiles/Pixel5.png",
+    "image": "/Images/Mobiles/Pixel5.png",
     "name": "Pixel 5",
     "brand": "Google",
     "price": 699.0,
@@ -28,7 +28,7 @@
   },
   {
     "id": "M004",
-    "image": "./Images/Mobiles/OnePlus9Pro.png",
+    "image": "/Images/Mobiles/OnePlus9Pro.png",
     "name": "OnePlus 9 Pro",
     "brand": "OnePlus",
     "price": 969.0,
@@ -37,7 +37,7 @@
   },
   {
     "id": "M005",
-    "image": "./Images/Mobiles/iPhone13.png",
+    "image": "/Images/Mobiles/iPhone13.png",
     "name": "iPhone 13",
     "brand": "Apple",
     "price": 799.99,
@@ -46,7 +46,7 @@
   },
   {
     "id": "M006",
-    "image": "./Images/Mobiles/OnePlus10.png",
+    "image": "/Images/Mobiles/OnePlus10.png",
     "name": "OnePlus 10",
     "brand": "OnePlus",
     "price": 899.99,
@@ -55,7 +55,7 @@
   },
   {
     "id": "L001",
-    "image": "./Images/Laptops/LenovoIdeaPad5.png",
+    "image": "/Images/Laptops/LenovoIdeaPad5.png",
     "name": "Lenovo IdeaPad 5",
     "brand": "Lenovo",
     "price": 799.99,
@@ -64,7 +64,7 @@
   },
   {
     "id": "L002",
-    "image": "./Images/Laptops/DellInspiron15.png",
+    "image": "/Images/Laptops/DellInspiron15.png",
     "name": "Dell Inspiron 15",
     "brand": "Dell",
     "price": 699.99,
@@ -73,7 +73,7 @@
   },
   {
     "id": "L003",
-    "image": "./Images/Laptops/AcerAspire5.png",
+    "image": "/Images/Laptops/AcerAspire5.png",
     "name": "Acer Aspire 5",
     "brand": "Acer",
     "price": 649.99,
@@ -82,7 +82,7 @@
   },
   {
     "id": "L004",
-    "image": "./Images/Laptops/ApplMacBookAir.png",
+    "image": "/Images/Laptops/ApplMacBookAir.png",
     "name": "Apple MacBook Air",
     "brand": "Apple",
     "price": 999.99,
@@ -91,7 +91,7 @@
   },
   {
     "id": "L005",
-    "image": "./Images/Laptops/AsusZenBook14.png",
+    "image": "/Images/Laptops/AsusZenBook14.png",
     "name": "Asus ZenBook 14",
     "brand": "Asus",
     "price": 899.99,
@@ -100,7 +100,7 @@
   },
   {
     "id": "L006",
-    "image": "./Images/Laptops/DellXPS13.png",
+    "image": "/Images/Laptops/DellXPS13.png",
     "name": "Dell XPS 13",
     "brand": "Dell",
     "price": 1199.99,
@@ -109,7 +109,7 @@
   },
   {
     "id": "A001",
-    "image": "./Images/Accessories/LenovoUSB-CHub.png",
+    "image": "/Images/Accessories/LenovoUSB-CHub.png",
     "name": "Lenovo USB-C Hub",
     "brand": "Lenovo",
     "price": 49.99,
@@ -123,7 +123,7 @@
   },
   {
     "id": "A002",
-    "image": "./Images/Accessories/LogitechM720.png",
+    "image": "/Images/Accessories/LogitechM720.png",
     "name": "Logitech M720 Mouse",
     "brand": "Logitech",
     "price": 49.99,
@@ -140,7 +140,7 @@
   },
   {
     "id": "A003",
-    "image": "./Images/Accessories/JabraSpeaker.png",
+    "image": "/Images/Accessories/JabraSpeaker.png",
     "name": "Jabra Speak 710",
     "brand": "Jabra",
     "price": 299.99,
@@ -157,7 +157,7 @@
   },
   {
     "id": "A004",
-    "image": "./Images/Accessories/SamsungT5SSD.png",
+    "image": "/Images/Accessories/SamsungT5SSD.png",
     "name": "Samsung SSD",
     "brand": "Samsung",
     "price": 89.99,
@@ -174,7 +174,7 @@
   },
   {
     "id": "A005",
-    "image": "./Images/Accessories/AnkerPowerCore.png",
+    "image": "/Images/Accessories/AnkerPowerCore.png",
     "name": "Anker 10000",
     "brand": "Anker",
     "price": 29.99,
@@ -191,7 +191,7 @@
   },
   {
     "id": "A006",
-    "image": "./Images/Accessories/Webcam.png",
+    "image": "/Images/Accessories/Webcam.png",
     "name": "Logitech HD Webcam",
     "brand": "Logitech",
     "price": 69.99,
@@ -208,7 +208,7 @@
   },
   {
     "id": "P001",
-    "image": "./Images/Mens dress/whiteshirt.png",
+    "image": "/Images/Mens dress/whiteshirt.png",
     "name": "Slim-Fit Shirt",
     "brand": "Calvin Klein",
     "price": 59.99,
@@ -220,7 +220,7 @@
   },
   {
     "id": "P002",
-    "image": "./Images/Mens dress/jacket.png",
+    "image": "/Images/Mens dress/jacket.png",
     "name": "Classic-Fit Jacket",
     "brand": "Ralph Lauren",
     "price": 249.99,
@@ -232,7 +232,7 @@
   },
   {
     "id": "P003",
-    "image": "./Images/Mens dress/pant.png",
+    "image": "/Images/Mens dress/pant.png",
     "name": "Slim-Fit Pants",
     "brand": "Banana Republic",
     "price": 89.99,
@@ -244,7 +244,7 @@
   },
   {
     "id": "P004",
-    "image": "./Images/Mens dress/shoes.png",
+    "image": "/Images/Mens dress/shoes.png",
     "name": "Leather Shoes",
     "brand": "Allen Edmonds",
     "price": 395.0,
@@ -256,7 +256,7 @@
   },
   {
     "id": "P005",
-    "image": "./Images/Mens dress/tie.png",
+    "image": "/Images/Mens dress/tie.png",
     "name": "Silk Tie",
     "brand": "Hugo Boss",
     "price": 79.99,
@@ -268,7 +268,7 @@
   },
   {
     "id": "P006",
-    "image": "./Images/Mens dress/watch.png",
+    "image": "/Images/Mens dress/watch.png",
     "name": "Watch",
     "brand": "Tissot",
     "price": 399.0,
@@ -280,7 +280,7 @@
   },
   {
     "id": "W001",
-    "image": "./Images/Womens dress/RedWrap.png",
+    "image": "/Images/Womens dress/RedWrap.png",
     "name": "Wrap",
     "brand": "Diane von Furstenberg",
     "price": 398.0,
@@ -292,7 +292,7 @@
   },
   {
     "id": "W002",
-    "image": "./Images/Womens dress/Cocktail.png",
+    "image": "/Images/Womens dress/Cocktail.png",
     "name": "Cocktail",
     "brand": "Badgley Mischka",
     "price": 295.0,
@@ -304,7 +304,7 @@
   },
   {
     "id": "W003",
-    "image": "./Images/Womens dress/maxi.png",
+    "image": "/Images/Womens dress/maxi.png",
     "name": "Puff Sleeve Maxi",
     "brand": "Free People",
     "price": 128.0,
@@ -316,7 +316,7 @@
   },
   {
     "id": "W004",
-    "image": "./Images/Womens dress/black.png",
+    "image": "/Images/Womens dress/black.png",
     "name": "Black-Colour Dress",
     "brand": "Theory",
     "price": 295.0,
@@ -328,7 +328,7 @@
   },
   {
     "id": "W005",
-    "image": "./Images/Womens dress/saree.png",
+    "image": "/Images/Womens dress/saree.png",
     "name": "Georgette Sarees",
     "brand": "Georgette",
     "price": 148.0,
@@ -340,7 +340,7 @@
   },
   {
     "id": "W006",
-    "image": "./Images/Womens dress/Floral.png",
+    "image": "/Images/Womens dress/Floral.png",
     "name": "Floral Print Dress",
     "brand": "Kate Spade New York",
     "price": 368.0,
@@ -352,7 +352,7 @@
   },
   {
     "id": "K001",
-    "image": "./Images/Kids/Sundress.png",
+    "image": "/Images/Kids/Sundress.png",
     "name": "Girls' Sundress",
     "brand": "Old Navy",
     "price": 24.99,
@@ -364,7 +364,7 @@
   },
   {
     "id": "K002",
-    "image": "./Images/Kids/PoloShirt.png",
+    "image": "/Images/Kids/PoloShirt.png",
     "name": "Polo Shirt & Shorts",
     "brand": "Ralph Lauren",
     "price": 65.0,
@@ -376,7 +376,7 @@
   },
   {
     "id": "K003",
-    "image": "./Images/Kids/Tulle.png",
+    "image": "/Images/Kids/Tulle.png",
     "name": "Girls' Tulle Dress",
     "brand": "H&M",
     "price": 34.99,
@@ -388,7 +388,7 @@
   },
   {
     "id": "K004",
-    "image": "./Images/Kids/PlaidShirt.png",
+    "image": "/Images/Kids/PlaidShirt.png",
     "name": "Plaid Shirt & Pants",
     "brand": "Gap",
     "price": 49.99,
@@ -400,7 +400,7 @@
   },
   {
     "id": "K005",
-    "image": "./Images/Kids/Denim.png",
+    "image": "/Images/Kids/Denim.png",
     "name": "Denim Dress",
     "brand": "Levi's",
     "price": 39.99,
@@ -412,7 +412,7 @@
   },
   {
     "id": "K006",
-    "image": "./Images/Kids/shirt.png",
+    "image": "/Images/Kids/shirt.png",
     "name": "Shirt",
     "brand": "Carter's",
     "price": 14.99,
