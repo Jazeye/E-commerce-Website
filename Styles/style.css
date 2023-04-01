@@ -65,7 +65,6 @@ body {
   }
   .navbar-menu {
     display: none;
-    
   }
   .menu-icon {
     display: block;
@@ -398,8 +397,10 @@ body {
   opacity: 1;
 }
 /*pro-direct*/
-.pro-img
-
+#pro-img {
+  max-width: 100%;
+  transition: 0.5s;
+}
 /* card end*/
 .main-cont {
   display: flex;
