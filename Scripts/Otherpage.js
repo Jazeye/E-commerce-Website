@@ -2,20 +2,20 @@
 window.addEventListener("load", function () {
   getJsonData("/Data/OtherpageData.json")
     .then((res) => {
-      const OtherpageData = res;
-      showOtherpageData(res, "phone", "#Phone-pd");
-      showOtherpageData(res, "Laptops", "#Laptop-pd");
-      showOtherpageData(res, "Accessoriesod", "#Accessories-pd");
-      showOtherpageData(res, "Mens", "#Men-pd");
-      showOtherpageData(res, "Womens", "#Women-pd");
-      showOtherpageData(res, "Kidses", "#Kids-pd");
+      const products = res;
+      showproducts(res, "phone", "#Phone-pd");
+      showproducts(res, "Laptops", "#Laptop-pd");
+      showproducts(res, "Accessoriesod", "#Accessories-pd");
+      showproducts(res, "Mens", "#Men-pd");
+      showproducts(res, "Womens", "#Women-pd");
+      showproducts(res, "Kidses", "#Kids-p");
     })
     .catch((err) => console.log(err));
 });
 
-function getCategories(OtherpageData) {
+function getCategories(products) {
   const categories = [];
-  for (let product of OtherpageData) {
+  for (let product of products) {
     if (!categories.includes(product.category)) {
       categories.push(product.category);
     }
@@ -23,22 +23,22 @@ function getCategories(OtherpageData) {
   return categories;
 }
 
-function generateOtherpageDataHtml(OtherpageData) {
+function generateproductsHtml(products) {
   let output = `
     <div class="product-container">
   `;
-  for (let i = 0; i < OtherpageData.length; i++) {
+  for (let i = 0; i < products.length; i++) {
     output += `
       <div class="container">
         <div class="content">
           <div class="card">
             <div class="imgBox">
-              <img src="${OtherpageData[i].image}"/>
+              <img src="${products[i].image}"/>
             </div>
             <div class="contentbox">
-              <h3>${OtherpageData[i].name}</h3>
-              <h2 class="price">${OtherpageData[i].price}</h2>
-              <a href="/Pages/addtocart.html?id=${OtherpageData[i].id}" class="buy">View Details</a>
+              <h3>${products[i].name}</h3>
+              <h2 class="price">${products[i].price}</h2>
+              <a href="/Pages/addtocart.html?id=${products[i].id}" class="buy">View Details</a>
             </div>
           </div>
         </div>
@@ -71,12 +71,12 @@ function getJsonData(url) {
   });
 }
 
-function showOtherpageData(OtherpageData, cat, _id) {
+function showproducts(products, cat, _id) {
   // body...
-  const filteredOtherpageData = OtherpageData.filter(
+  const filteredproducts = products.filter(
     (product) => product.category === cat
   );
-  let output = generateOtherpageDataHtml(filteredOtherpageData);
+  let output = generateproductsHtml(filteredproducts);
   document.querySelector(_id).innerHTML = output;
 }
 
@@ -90,8 +90,8 @@ const id = queryString.get("id");
 window.addEventListener("load", function () {
   getJsonData("/Data/OtherpageData.json")
     .then((res) => {
-      const OtherpageData = res;
-      const product = OtherpageData.find((item) => item.id === id);
+      const products = res;
+      const product = products - pd.find((item) => item.id === id);
       console.log(product);
       loadProduct(product);
     })
