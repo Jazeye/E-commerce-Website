@@ -316,7 +316,7 @@ body {
   grid-gap: 20px;
   height: 100%;
   overflow-y: scroll;
-  padding-left: 20px;
+  padding-left: 90px;
 }
 
 /* responsive card aling end */
@@ -425,7 +425,7 @@ body {
   text-align: center;
 }
 #pro-img {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
 }
 #pro-name {
