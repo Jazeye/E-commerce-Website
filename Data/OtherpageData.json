@@ -54,6 +54,91 @@
     "description": "The OnePlus 10 features a 6.7-inch Fluid AMOLED display, 5G connectivity, Qualcomm Snapdragon 8 Gen 1 chipset, quad-camera system, and OxygenOS 12 based on Android 13."
   },
   {
+    "id": "M007",
+    "image": "/images/Mobiles/XiaomiMi12.png",
+    "name": "Xiaomi Mi 12",
+    "brand": "Xiaomi",
+    "price": 849.99,
+    "category": "phone",
+    "description": "The Xiaomi Mi 12 features a 6.8-inch OLED display, 5G connectivity, Qualcomm Snapdragon 8 Gen 1 chipset, triple-camera system, and MIUI 14 based on Android 13."
+    }
+    ,
+    {
+    "id": "M08",
+    "image": "/images/Mobiles/GooglePixel6.png",
+    "name": "Google Pixel 6",
+    "brand": "Google",
+    "price": 749.99,
+    "category": "phone",
+    "description": "The Google Pixel 6 features a 6.4-inch OLED display, 5G connectivity, Google Tensor chipset, dual-camera system, and Android 13."
+    }
+    ,
+    {
+    "id": "M09",
+    "image": "/images/Mobiles/OPPOFindN.png",
+    "name": "OPPO Find N",
+    "brand": "OPPO",
+    "price": 899.99,
+    "category": "phone",
+    "description": "The OPPO Find N features a 6.7-inch AMOLED display, 5G connectivity, Qualcomm Snapdragon 8 Gen 1 chipset, quad-camera system, and ColorOS 13 based on Android 13."
+    }
+    ,
+    {
+    "id": "M10",
+    "image": "/images/Mobiles/RealmeGT2Pro.png",
+    "name": "Realme GT 2 Pro",
+    "brand": "Realme",
+    "price": 699.99,
+    "category": "phone",
+    "description": "The Realme GT 2 Pro features a 6.5-inch Super AMOLED display, 5G connectivity, Qualcomm Snapdragon 8 Gen 1 chipset, triple-camera system, and Realme UI 3.0 based on Android 13."
+    },
+    {
+      "id": "M11",
+      "image": "/images/Mobiles/ASUSROGPhone6.png",
+      "name": "ASUS ROG Phone 6",
+      "brand": "ASUS",
+      "price": 899.99,
+      "category": "phone",
+      "description": "The ASUS ROG Phone 6 features a 6.78-inch AMOLED display with 144Hz refresh rate, 5G connectivity, Snapdragon 888+ chipset, triple-camera system, and ROG UI based on Android 12."
+  },
+  {
+      "id": "M12",
+      "image": "/images/Mobiles/LGVelvet2Pro.png",
+      "name": "LG Velvet 2 Pro",
+      "brand": "LG",
+      "price": 799.99,
+      "category": "phone",
+      "description": "The LG Velvet 2 Pro features a 6.8-inch OLED display, 5G connectivity, Snapdragon 888 chipset, triple-camera system, and LG UX 10 based on Android 11."
+  },
+  {
+      "id": "M13",
+      "image": "/images/Mobiles/MotorolaEdgePlus.png",
+      "name": "Motorola Edge Plus",
+      "brand": "Motorola",
+      "price": 999.99,
+      "category": "phone",
+      "description": "The Motorola Edge Plus features a 6.7-inch OLED display, 5G connectivity, Snapdragon 865 chipset, triple-camera system, and near-stock Android 11."
+  },
+  {
+      "id": "M14",
+      "image": "/images/Mobiles/NokiaX100.png",
+      "name": "Nokia X100",
+      "brand": "Nokia",
+      "price": 399.99,
+      "category": "phone",
+      "description": "The Nokia X100 features a 6.67-inch FHD+ display, 5G connectivity, Snapdragon 480 chipset, quad-camera system, and Android 11."
+  },
+  {
+      "id": "M15",
+      "image": "/images/Mobiles/ZTEAxon30Ultra.png",
+      "name": "ZTE Axon 30 Ultra",
+      "brand": "ZTE",
+      "price": 749.99,
+      "category": "phone",
+      "description": "The ZTE Axon 30 Ultra features a 6.67-inch AMOLED display, 5G connectivity, Snapdragon 888 chipset, triple-camera system, and MiFavor 11 based on Android 11."
+  }
+,  
+  {
     "id": "L001",
     "image": "/images/Laptops/LenovoIdeaPad5.png",
     "name": "Lenovo IdeaPad 5",
