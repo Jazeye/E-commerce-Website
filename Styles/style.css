@@ -397,9 +397,54 @@ body {
   opacity: 1;
 }
 /*pro-direct*/
-#pro-img {
+.pro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pro-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
   max-width: 100%;
-  transition: 0.5s;
+  text-align: center;
+}
+#pro-img {
+  max-width: 40%;
+  height: auto;
+}
+#pro-name {
+  margin: 10px 0;
+}
+#pro-price {
+  color: #f00;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#pro-disc {
+  margin: 0;
+}
+#check-price-btn {
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#check-price-btn:hover {
+  background-color: #3e8e41;
 }
 /* card end*/
 .main-cont {
