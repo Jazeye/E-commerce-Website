@@ -310,6 +310,15 @@ body {
     margin-right: 20px;
   }
 }
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  height: 100%;
+  overflow-y: scroll;
+  padding-left: 20px;
+}
+
 /* responsive card aling end */
 /* card */
 .card {
