@@ -4,7 +4,7 @@ window.addEventListener("load", function () {
     .then((res) => {
       const products = res;
       showProducts(res, "phone", "#phoneproducts");
-      showProducts(res, "Laptops", "#laptopproducts");
+      showProducts(res, "Laptops", "#laptop-pd");
       showProducts(res, "Accessoriesod", "#Accessoryproducts");
       showProducts(res, "Mens", "#menproducts");
       showProducts(res, "Womens", "#womenproducts");
