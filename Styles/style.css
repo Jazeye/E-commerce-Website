@@ -430,6 +430,13 @@ body {
   max-width: 100%;
   text-align: center;
 }
+.pro-marquee{
+  padding-top:20px ;
+  color: #cc1010;
+  background-color: #000;
+  width: 95%;
+  font-family: 'Times New Roman', Times, serif;
+}
 #pro-img {
   max-width: 30%;
   height: auto;
@@ -458,6 +465,21 @@ body {
   cursor: pointer;
   border-radius: 5px;
 }
+.pro-banner {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.pro-banner img {
+  width: 95%;
+  height: 85px;
+  display: block;
+  margin: 0 auto;
+}
+
 #check-price-btn:hover {
   background-color: #3e8e41;
 }

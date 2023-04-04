@@ -21,6 +21,7 @@ window.addEventListener("load", function () {
     document.getElementById('pro-price').innerText = pro.price;
     document.getElementById('pro-img').src = pro.image;
     document.getElementById('pro-disc').innerText = pro.description;
+    document.getElementById('pro-banner').src = pro.banner;
   }
   
   

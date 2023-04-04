@@ -6,10 +6,12 @@
     "brand": "Apple",
     "price": 799.99,
     "category": "smartphone",
-    "description": "The iPhone 12 features a 6.1-inch Super Retina XDR display, 5G connectivity, A14 Bionic chip, dual-camera system, and iOS 14."
+    "description": "The iPhone 12 features a 6.1-inch Super Retina XDR display, 5G connectivity, A14 Bionic chip, dual-camera system, and iOS 14.",
+    "banner":"/Images/Banner/img1.jpg"
   },
   {
     "id": "M002",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mobiles/GalaxyS21.png",
     "name": "Galaxy S21",
     "brand": "Samsung",
@@ -19,6 +21,7 @@
   },
   {
     "id": "M003",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mobiles/Pixel5.png",
     "name": "Pixel 5",
     "brand": "Google",
@@ -28,6 +31,7 @@
   },
   {
     "id": "M004",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mobiles/OnePlus9Pro.png",
     "name": "OnePlus 9 Pro",
     "brand": "OnePlus",
@@ -37,6 +41,7 @@
   },
   {
     "id": "M005",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mobiles/iPhone13.png",
     "name": "iPhone 13",
     "brand": "Apple",
@@ -46,6 +51,7 @@
   },
   {
     "id": "M006",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mobiles/OnePlus10.png",
     "name": "OnePlus 10",
     "brand": "OnePlus",
@@ -55,6 +61,7 @@
   },
   {
     "id": "L001",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Laptops/LenovoIdeaPad5.png",
     "name": "Lenovo IdeaPad 5",
     "brand": "Lenovo",
@@ -64,6 +71,7 @@
   },
   {
     "id": "L002",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Laptops/DellInspiron15.png",
     "name": "Dell Inspiron 15",
     "brand": "Dell",
@@ -73,6 +81,7 @@
   },
   {
     "id": "L003",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Laptops/AcerAspire5.png",
     "name": "Acer Aspire 5",
     "brand": "Acer",
@@ -82,6 +91,7 @@
   },
   {
     "id": "L004",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Laptops/ApplMacBookAir.png",
     "name": "Apple MacBook Air",
     "brand": "Apple",
@@ -91,6 +101,7 @@
   },
   {
     "id": "L005",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Laptops/AsusZenBook14.png",
     "name": "Asus ZenBook 14",
     "brand": "Asus",
@@ -100,6 +111,7 @@
   },
   {
     "id": "L006",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Laptops/DellXPS13.png",
     "name": "Dell XPS 13",
     "brand": "Dell",
@@ -109,6 +121,7 @@
   },
   {
     "id": "A001",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Accessories/LenovoUSB-CHub.png",
     "name": "Lenovo USB-C Hub",
     "brand": "Lenovo",
@@ -123,6 +136,7 @@
   },
   {
     "id": "A002",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Accessories/LogitechM720.png",
     "name": "Logitech M720 Mouse",
     "brand": "Logitech",
@@ -140,6 +154,7 @@
   },
   {
     "id": "A003",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Accessories/JabraSpeaker.png",
     "name": "Jabra Speak 710",
     "brand": "Jabra",
@@ -157,6 +172,7 @@
   },
   {
     "id": "A004",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Accessories/SamsungT5SSD.png",
     "name": "Samsung SSD",
     "brand": "Samsung",
@@ -174,6 +190,7 @@
   },
   {
     "id": "A005",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Accessories/AnkerPowerCore.png",
     "name": "Anker 10000",
     "brand": "Anker",
@@ -191,6 +208,7 @@
   },
   {
     "id": "A006",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Accessories/Webcam.png",
     "name": "Logitech HD Webcam",
     "brand": "Logitech",
@@ -208,6 +226,7 @@
   },
   {
     "id": "P001",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mens dress/whiteshirt.png",
     "name": "Slim-Fit Shirt",
     "brand": "Calvin Klein",
@@ -220,6 +239,7 @@
   },
   {
     "id": "P002",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mens dress/jacket.png",
     "name": "Classic-Fit Jacket",
     "brand": "Ralph Lauren",
@@ -232,6 +252,7 @@
   },
   {
     "id": "P003",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mens dress/pant.png",
     "name": "Slim-Fit Pants",
     "brand": "Banana Republic",
@@ -244,6 +265,7 @@
   },
   {
     "id": "P004",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mens dress/shoes.png",
     "name": "Leather Shoes",
     "brand": "Allen Edmonds",
@@ -256,6 +278,7 @@
   },
   {
     "id": "P005",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mens dress/tie.png",
     "name": "Silk Tie",
     "brand": "Hugo Boss",
@@ -268,6 +291,7 @@
   },
   {
     "id": "P006",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Mens dress/watch.png",
     "name": "Watch",
     "brand": "Tissot",
@@ -280,6 +304,7 @@
   },
   {
     "id": "W001",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Womens dress/RedWrap.png",
     "name": "Wrap",
     "brand": "Diane von Furstenberg",
@@ -292,6 +317,7 @@
   },
   {
     "id": "W002",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Womens dress/Cocktail.png",
     "name": "Cocktail",
     "brand": "Badgley Mischka",
@@ -304,6 +330,7 @@
   },
   {
     "id": "W003",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Womens dress/maxi.png",
     "name": "Puff Sleeve Maxi",
     "brand": "Free People",
@@ -316,6 +343,7 @@
   },
   {
     "id": "W004",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Womens dress/black.png",
     "name": "Black-Colour Dress",
     "brand": "Theory",
@@ -328,6 +356,7 @@
   },
   {
     "id": "W005",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Womens dress/saree.png",
     "name": "Georgette Sarees",
     "brand": "Georgette",
@@ -340,6 +369,7 @@
   },
   {
     "id": "W006",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Womens dress/Floral.png",
     "name": "Floral Print Dress",
     "brand": "Kate Spade New York",
@@ -352,6 +382,7 @@
   },
   {
     "id": "K001",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Kids/Sundress.png",
     "name": "Girls' Sundress",
     "brand": "Old Navy",
@@ -364,6 +395,7 @@
   },
   {
     "id": "K002",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Kids/PoloShirt.png",
     "name": "Polo Shirt & Shorts",
     "brand": "Ralph Lauren",
@@ -376,6 +408,7 @@
   },
   {
     "id": "K003",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Kids/Tulle.png",
     "name": "Girls' Tulle Dress",
     "brand": "H&M",
@@ -388,6 +421,7 @@
   },
   {
     "id": "K004",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Kids/PlaidShirt.png",
     "name": "Plaid Shirt & Pants",
     "brand": "Gap",
@@ -400,6 +434,7 @@
   },
   {
     "id": "K005",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Kids/Denim.png",
     "name": "Denim Dress",
     "brand": "Levi's",
@@ -412,6 +447,7 @@
   },
   {
     "id": "K006",
+    "banner":"/Images/Banner/img1.jpg",
     "image": "/Images/Kids/shirt.png",
     "name": "Shirt",
     "brand": "Carter's",
