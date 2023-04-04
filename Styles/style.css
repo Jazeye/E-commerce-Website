@@ -283,7 +283,15 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 300px;
+  height: 500px;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.Op-products {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
@@ -316,7 +324,7 @@ body {
   grid-gap: 10px;
   height: 100%;
   overflow-y: scroll;
-  padding-left: 9%;
+  padding-left: 13%;
 }
 /* responsive card aling */
 @media (max-width: 800px) {
