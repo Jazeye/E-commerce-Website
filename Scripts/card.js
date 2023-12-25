@@ -1,6 +1,6 @@
 // products json lines
 window.addEventListener("load", function () {
-  getJsonData("/Data/products.json")
+  getJsonData("../Data/products.json")
     .then((res) => {
       const products = res;
       showProducts(res, "smartphone", "#phoneproducts");

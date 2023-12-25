@@ -1,6 +1,6 @@
 // Other page data show page json lines
 window.addEventListener("load", function () {
-  getJsonData("/Data/OtherpageData.json")
+  getJsonData("../Data/OtherpageData.json")
     .then((res) => {
       const products = res;
       showproducts(res, "phone", "#Phone-pd");

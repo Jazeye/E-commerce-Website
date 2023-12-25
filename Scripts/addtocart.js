@@ -5,7 +5,7 @@ let url = window.location.search;
   const id = queryString.get("id");
 // findjson lines
 window.addEventListener("load", function () {
-    getJsonData("/Data/products.json")
+    getJsonData("../Data/products.json")
       .then((res) => {
         const products = res;
         const product = products.find((item) => item.id === id);
