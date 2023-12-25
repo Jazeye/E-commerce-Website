@@ -1,2 +1,2 @@
 # E-commerce-Website 
-here its https://jazeye.me/eKart/
+here its https://jazeye.github.io/eKart/
